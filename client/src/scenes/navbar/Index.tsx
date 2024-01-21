@@ -11,7 +11,7 @@ const Navbar = (props: Props) => {
   const [selected, setSelected] = useState("dashboard");
 
   return (
-    <FlexBetween mb="0.25rem" p="0.5rem 0.5em" color={palette.grey[300]}>
+    <FlexBetween mb="0.25rem" p="0.5rem 0em" color={palette.grey[300]}>
       {/* Left side */}
       <FlexBetween gap="0.75rem">
         <PixIcon
